@@ -36,7 +36,7 @@ module.exports = {
     loaders: [
       { test: /\.ts$/, loader: 'ts-loader', exclude: [/\.(spec|e2e)\.ts$/] },
       { test: /\.html$/, loader: 'raw-loader' },
-      { test: /\.less$/, loader: 'raw-loader!postcss-loader!less-loader' }
+      { test: /\.scss$/, loader: 'raw-loader!postcss-loader!sass-loader' }
     ],
     noParse: [
       path.join(__dirname, 'node_modules', 'zone.js', 'dist'),

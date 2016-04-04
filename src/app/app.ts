@@ -7,7 +7,7 @@ import {AboutComponent} from './about/about';
 @Component({
   selector: 'app',
   directives: [ ROUTER_DIRECTIVES ],
-  styles: [ require('./app.less') ],
+  styles: [ require('./app.scss') ],
   template: require('./app.html')
 })
 @RouteConfig([
